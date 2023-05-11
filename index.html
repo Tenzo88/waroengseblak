@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Grocery Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Warunk Jeletet </a>
+
+    <nav class="navbar">
+        <a href="#beranda">Beranda</a>
+        <a href="#pembelian">Pembelian</a>
+        <a href="#produk">Produk</a>
+        <a href="#review">Review</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/produk1.jpg" alt="">
+            <div class="content">
+                <h3>watermelon</h3>
+                <span class="price">Rp. 15.000</span>
+                <span class="quantity">pcs : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/produk4.jpg" alt="">
+            <div class="content">
+                <h3>onion</h3>
+                <span class="price">Rp. 7.000</span>
+                <span class="quantity">pcs : 2</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/produk3.jpg" alt="">
+            <div class="content">
+                <h3>chicken</h3>
+                <span class="price">Rp. 42.999</span>
+                <span class="quantity">pcs : 1</span>
+            </div>
+        </div>
+        <div class="total"> Rp. 71.999 </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- beranda section starts  -->
+
+<section class="beranda" id="beranda">
+
+    <div class="content">
+        <h3>Basreng <span>TERENAK</span> di Lampung</h3>
+        <p>Camilan untuk menemani hari-harimu yang penuh dengan cobaan</p>
+        <a href="https://shopee.co.id/basreng_jeletet.id?originalCategoryId=11043457#product_list" class="btn">shop now</a>
+    </div>
+
+</section>
+
+<!-- beranda section ends -->
+
+<!-- pembelian section starts  -->
+
+<section class="pembelian" id="pembelian">
+
+    <h1 class="heading"> Via <span>pembelian</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/shopee.png" alt="">
+            <h3>Shopee</h3>
+            <p>Pembelian bisa via Shopee</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/wa.png" alt="">
+            <h3>Whatsapp</h3>
+            <p>Pembelian bisa via Whatsapp</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/cod.png" alt="">
+            <h3>Cash on Delivery</h3>
+            <p>Pembelian bisa via COD</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- pembelian section ends -->
+
+<!-- produk section starts  -->
+
+<section class="produk" id="produk">
+
+    <h1 class="heading"> <span>produk</span> kami </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/produk1.jpg" alt="">
+                <h2>Basreng pedas ekstra daun jeruk</h2>
+                <div class="price"> Rp. 15.000 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/produk2.jpg" alt="">
+                <h2>Basreng pedas daun jeruk</h2>
+                <div class="price"> Rp. 15.000 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/produk3.jpg" alt="">
+                <h2>Basreng pedas daun jeruk 1 kg</h2>
+                <div class="price"> Rp. 42.999 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/produk4.jpg" alt="">
+                <h2>Basreng pedas daun jeruk 50 gram</h2>
+                <div class="price"> Rp. 7.000  </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/produk5.jpg" alt="">
+                <h2>Basreng pedas manis daun jeruk</h2>
+                <div class="price"> Rp. 15.000 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/produk1.jpg" alt="">
+                <h2>Basreng pedas ekstra daun jeruk</h2>
+                <div class="price"> Rp. 15.000 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/produk4.jpg" alt="">
+                <h2>Basreng pedas daun jeruk 50 gram</h2>
+                <div class="price"> Rp. 7.000 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/produk3.jpg" alt="">
+                <h2>Basreng pedas daun jeruk 1 kg</h2>
+                <div class="price"> Rp. 42.999 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<!-- produk section ends -->
+
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer <span>review</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pelanggan1.jpg" alt="">
+                
+                <h3>@Gilang_Lemonaru</h3>
+                <p>Sangat direkoemdasikan beli disini</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pelanggan2.jpg" alt="">
+                
+                <h3>@Solihin</h3>
+                <p>Rasanya enak banget</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pelanggan3.jpg" alt="">
+                
+                <h3>@WebooTzy</h3>
+                <p>Kalau perlu borong semua</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pelanggan4.jpg" alt="">
+                
+                <h3>@4noo_bnget</h3>
+                <p>Hemmm wangy-wangy</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> Warunk Jeletet <i class="fas fa-shopping-basket"></i> </h3>
+            <p>Jl. Lintas Barat Sumatera No.1, Gumuk Mas, Kec. Pagelaran, Kabupaten Pringsewu, Lampung 35376.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-tiktok"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +62 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> Hesti@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Pringsewu, Lampung </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> Team WEBoo </span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
